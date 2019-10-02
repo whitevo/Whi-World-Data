@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ice Elemental" nameDescription="a ice elemental" race="energy" experience="0" speed="100" manacost="0">
+	<health now="200" max="200"/>
+	<look type="286" corpse="10499"/>
+    
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="1"/>
+		<flag staticattack="90"/>
+		<flag targetdistance="2"/>
+		<flag runonhealth="0"/>
+	</flags>
+    
+    <voices interval="5000" chance="20">
+        <voice sentence="*melting noize*"/>
+	</voices>
+</monster>

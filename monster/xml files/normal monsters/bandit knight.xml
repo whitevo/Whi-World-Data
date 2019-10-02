@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Bandit knight" nameDescription="a Bandit knight" race="blood" experience="0" speed="170" manacost="0">
+	<health now="2700" max="2700"/>
+	<look type="131" head="105" body="14" legs="84" feet="79" addons="1" corpse="6080"/>
+	<targetchange interval="10000" chance="20"/>
+    
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="95"/>
+		<flag runonhealth="0"/>
+	</flags>
+    
+	
+		<voice sentence="Taste my steel"/>
+	
+</monster>

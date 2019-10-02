@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="sea hero" nameDescription="sea hero" race="blood" experience="0" speed="180" manacost="390">
+	<health now="10000" max="10000"/>
+	<look type="442" corpse="15187"/>
+	<targetchange interval="4000" chance="10"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="0"/>
+		<flag staticattack="70"/>
+		<flag runonhealth="0"/>
+	</flags>
+</monster>

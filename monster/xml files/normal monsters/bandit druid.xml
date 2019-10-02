@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Bandit druid" nameDescription="a Bandit druid" race="blood" experience="0" speed="180" manacost="0">
+	<health now="1900" max="1900"/>
+	<look type="144" head="82" body="94" legs="94" feet="114" addons="2" corpse="6080"/>
+	<targetchange interval="10000" chance="20"/>
+    
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="3"/>
+		<flag staticattack="95"/>
+		<flag runonhealth="0"/>
+	</flags>
+    
+	
+		<voice sentence="Catch me if you can scrub"/>
+	
+</monster>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="sea counselor" nameDescription="sea counselor" race="blood" experience="0" speed="170" manacost="0">
+	<health now="2000" max="2000"/>
+	<look type="443" corpse="15208"/>
+	<targetchange interval="4000" chance="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="3"/>
+		<flag staticattack="60"/>
+		<flag runonhealth="0"/>
+	</flags>
+</monster>

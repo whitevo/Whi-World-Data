@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Boar" nameDescription="a boar" race="blood" experience="60" speed="175" manacost="465">
+	<health now="2100" max="2100"/>
+	<look type="380" corpse="13308"/>
+	<targetchange interval="5000" chance="40"/>
+
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+
+	
+		<voice sentence="Grunt Grunt"/>
+		<voice sentence="Grunt"/>
+	
+</monster>

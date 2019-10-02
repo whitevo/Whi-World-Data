@@ -1,0 +1,1 @@
+function onThink() return speedball_moveBalls() end

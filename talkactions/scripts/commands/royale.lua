@@ -1,0 +1,1 @@
+function onSay(player) return false, royale_MW_main_create(player) end

@@ -1,0 +1,1 @@
+function onSay(player, words, param) spellSystem_onSay(player, words, param) end

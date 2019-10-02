@@ -1,0 +1,1 @@
+function onThink(creature) onThink_sayTarget(creature) end

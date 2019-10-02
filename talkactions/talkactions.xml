@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talkactions>
+	<talkaction words="!s1"		separator=" "		script="spellSystem.lua"/>
+	<talkaction words="!s2"		separator=" "		script="spellSystem.lua"/>
+	<talkaction words="!s3"		separator=" "		script="spellSystem.lua"/>
+	<talkaction words="!s4"		separator=" "		script="spellSystem.lua"/>
+
+	<talkaction words="!rebirth"		separator=" "		script="twaccy_rebirth.lua"/>
+
+    <talkaction words="!war"            separator=" "   script="warSystem.lua" />
+
+    <talkaction words="!test"           separator=" "   script="test.lua" />
+    <talkaction words="!jazmaz"         separator=" "   script="jazmaz.lua" />
+    <talkaction words="!ww"             separator=" "   script="whiworld.lua" />
+    <talkaction words="!buy"            separator=" "   script="buy.lua" />
+    
+    <talkaction words="!bomb"                           script="bomberman.lua" />
+
+    <talkaction words="!frags"                          script="frags.lua" />
+    <talkaction words="!map"            separator=" "   script="empire_map.lua" />
+    <talkaction words="!mapmarks"                       script="empire_mapmarks.lua" />
+    
+    <!-- Tools -->
+        <talkaction words="!setSV"      separator=" "   script="tools/setStorageValue.lua" />
+        <talkaction words="!getSV"      separator=" "   script="tools/getStorageValue.lua" />
+        <talkaction words="!getPSV"     separator=" "   script="tools/getPlayerSV.lua" />
+        <talkaction words="!setPSV"     separator=" "   script="tools/setPlayerSV.lua" />
+        <talkaction words="!lua"        separator=" "   script="tools/lua.lua" />
+        <talkaction words="!op"         separator=" "   script="tools/state operations on userdata.lua" />
+        
+	<!-- Commands -->
+        <talkaction words="!royale"                     script="commands/royale.lua" />
+        <talkaction words="!empire"                     script="commands/empire.lua" />
+        <talkaction words="!online"                     script="commands/online.lua"/>
+        <talkaction words="!tasks"                      script="commands/tasks.lua" />
+        <talkaction words="!c"                          script="commands/commands.lua" />
+        <talkaction words="!guess"                      script="drinking game.lua" />
+        <talkaction words="!restart"                    script="restart.lua" />
+        <talkaction words="!stats"      separator=" "   script="commands/stats.lua" />
+        <talkaction words="!stat"       separator=" "   script="commands/stats.lua" />
+        <talkaction words="!house"                      script="commands/house.lua" />
+        <talkaction words="!housesell"  separator=" "   script="commands/sellHouse.lua" />
+        <talkaction words="!godMode"    separator=" "   script="commands/godMode.lua" />
+        <talkaction words="!dofile"     separator=" "   script="commands/dofile.lua" />
+        <talkaction words="!bomberman"  separator=" "   script="commands/tp bobermanEvent.lua" />
+
+	<!-- SPELLS -->
+        <talkaction words="!climb"      separator=" "   script="commands/climb.lua" />
+        <talkaction words="!armorup"                    script="spellCast.lua" />
+        <talkaction words="!strike"                     script="spellCast.lua" />
+        <talkaction words="!rubydef"                    script="spellCast.lua" />
+        <talkaction words="!opaldef"                    script="spellCast.lua" />
+        <talkaction words="!heal"                       script="spellCast.lua" />
+        <talkaction words="!heat"                       script="spellCast.lua" />
+        <talkaction words="!shiver"                     script="spellCast.lua" />
+        <talkaction words="!spark"                      script="spellCast.lua" />
+        <talkaction words="!death"                      script="spellCast.lua" />
+        <talkaction words="!barrier"                    script="spellCast.lua" />
+        <talkaction words="!buff"                       script="spellCast.lua" />
+        <talkaction words="!dispel"                     script="spellCast.lua" />
+        <talkaction words="!mend"                       script="spellCast.lua" />
+        <talkaction words="!sapphdef"                   script="spellCast.lua" />
+        <talkaction words="!throwaxe"                   script="spellCast.lua" />
+        <talkaction words="!trap"                       script="spellCast.lua" />
+        <talkaction words="!poison"                     script="spellCast.lua" />
+        <talkaction words="!fakedeath"                  script="spellCast.lua" />
+        <talkaction words="!volley"                     script="spellCast.lua" />
+        <talkaction words="!onyxdef"                    script="spellCast.lua" />
+        <talkaction words="!taunt"                      script="spellCast.lua" />
+        <talkaction words="!innervate" separator=" "    script="spellCast.lua" />
+        <talkaction words="!imp"                        script="spellCast.lua" />
+        <talkaction words="!shock"                      script="spellCast.lua" />
+        <talkaction words="!longshot"                   script="spellCast.lua" />
+        <talkaction words="!godhammer"                  script="spellCast.lua" />
+    
+	<!-- CREATING -->
+        <talkaction words="!i"          separator=" "   script="creating/create_item.lua" />
+        <talkaction words="!m"          separator=" "   script="creating/place_monster.lua" />
+        <talkaction words="!n"          separator=" "   script="creating/place_npc.lua" />
+        <talkaction words="!s"          separator=" "   script="creating/place_summon.lua" />
+        <talkaction words="!spells"     separator=" "   script="creating/create spellscroll.lua" />
+        <talkaction words="!herbs"      separator=" "   script="creating/create herb.lua" />
+        <talkaction words="!gems"       separator=" "   script="creating/create gems.lua" />
+        <talkaction words="!stones"     separator=" "   script="creating/create stone.lua" />
+        <talkaction words="!pot"        separator=" "   script="creating/create potion.lua" />
+        <talkaction words="!god"                        script="creating/create godStuff.lua" />
+        <talkaction words="!tools"                      script="creating/create tools.lua" />
+        <talkaction words="!seeds"                      script="creating/create seeds.lua" />
+        
+    <!-- server -->
+        <talkaction words="!r"          separator=" "   script="server stuff/removething.lua" />
+        <talkaction words="!b"          separator=" "   script="server stuff/broadcast.lua" />
+    	<talkaction words="!g"                          script="server stuff/ghost.lua" />
+        <talkaction words="!clean"                      script="server stuff/clean.lua" />
+    
+    <!-- teleporting -->
+        <talkaction words="!up"                         script="teleporting/up.lua" />
+        <talkaction words="!down"                       script="teleporting/down.lua" />
+        <talkaction words="!t"          separator=" "   script="teleporting/teleport_creature_here.lua" />
+        <talkaction words="!goto"       separator=" "   script="teleporting/god teleport.lua" />
+        <talkaction words="!pos"        separator=" "   script="teleporting/position.lua" />
+</talkactions>

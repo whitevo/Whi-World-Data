@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Energy Elemental" nameDescription="an energy elemental" race="energy" experience="0" speed="100" manacost="0">
+	<health now="200" max="200"/>
+	<look type="293" corpse="8966"/>
+    
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag staticattack="85"/>
+		<flag lightlevel="0"/>
+		<flag lightcolor="0"/>
+		<flag targetdistance="2"/>
+		<flag runonhealth="0"/>
+	</flags>
+    
+    <voices interval="5000" chance="20">
+        <voice sentence="*wuzuzu*"/>
+	</voices>
+</monster>

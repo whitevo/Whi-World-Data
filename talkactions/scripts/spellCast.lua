@@ -1,0 +1,1 @@
+function onSay(player, words, param) return spells_onSay(player, words, param) end

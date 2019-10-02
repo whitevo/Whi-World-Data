@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="cursed bear" nameDescription="a bear" race="undead" experience="0" speed="180" manacost="0">
+	<health now="7000" max="7000"/>
+	<look type="384" corpse="13323"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<voices interval="10000" chance="10">
+		<voice sentence="GGr"/>
+		<voice sentence="*clenkgr*"/>
+	</voices>
+</monster>

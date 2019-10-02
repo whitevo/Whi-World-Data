@@ -1,0 +1,1 @@
+function onSay(player, words, param) return warSystem_createInvite(player) end

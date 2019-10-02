@@ -1,0 +1,1 @@
+function onSay(player, words, param) return rebirth_talkaction(player, words, param) end

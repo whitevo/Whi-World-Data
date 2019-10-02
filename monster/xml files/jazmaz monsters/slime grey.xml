@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="grey slime" nameDescription="grey slime" race="undead" experience="0" speed="180" manacost="0">
+	<health now="150" max="150"/>
+	<look type="316" corpse="9961"/>
+	<targetchange interval="5000" chance="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="2"/>
+		<flag staticattack="85"/>
+		<flag runonhealth="0"/>
+	</flags>
+</monster>

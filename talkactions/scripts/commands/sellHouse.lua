@@ -1,0 +1,1 @@
+function onSay(player, words, param) return house_sellHouse(player, param) end

@@ -1,0 +1,1 @@
+function onSay(player, words, param) return empire_openMapMarks(player) end

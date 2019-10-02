@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="White Ninja" nameDescription="a white ninja" race="blood" experience="800000" speed="380" manacost="0">
+	<health now="14500" max="14500"/>
+	<look type="152" head="0" body="0" legs="0" feet="94" addons="3" corpse="20327"/>
+	<targetchange interval="4000" chance="0"/>
+	<strategy attack="210" defense="37"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="250" max="-1350"/>
+		<attack name="physical" interval="2000" chance="15" range="7" min="250" max="-1350">
+			<attribute key="shootEffect" value="throwingstar"/>
+		</attack>
+		<attack name="poisoncondition" interval="2000" chance="10" range="7" min="-250" max="-1350">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+	</attacks>
+	<defenses armor="15" defense="15">
+		<defense name="invisible" interval="2000" chance="10" duration="2000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="-5"/>
+		<element deathPercent="-5"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Die!"/>
+		<voice sentence="death is coming!"/>
+		<voice sentence="You are Dead!"/>
+	</voices>
+	<loot>
+	    <item id="15405" chance="500"/><!-- goldenfish -->
+	    <item id="9020" chance="250"/><!-- nike token -->
+		<item id="2050" countmax="2" chance="30000"/>	<!-- torch -->
+		<item id="2160" countmax="1" chance="11000"/>	<!-- CC -->
+		<item id="2403" chance="9750"/>					<!-- knife -->
+		<item id="2399" countmax="14" chance="7210"/>	<!-- throwing star -->
+		<item id="2404" chance="4000"/>					<!-- combat knife -->
+		<item id="7368" countmax="42" chance="12500"/><!-- assassin star -->
+		<item id="2195" chance="1000"/><!-- boots of haste -->
+		<item id="2432" chance="2000"/><!-- fire axe -->
+		<item id="2470" chance="1000"/><!-- golden legs -->
+		<item id="2033" chance="12500"/><!-- golden mug -->
+		<item id="8472" chance="12500"/><!-- great spirit potion -->
+		<item id="2177" chance="12500"/><!-- life crystal -->
+		<item id="2171" chance="12500"/><!-- platinum amulet -->
+	</loot>
+</monster>

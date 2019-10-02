@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+	<channel id="3" name="World Chat" public="1" script="worldchat.lua" />
+	<channel id="9" name="Game Channel" logged="yes" script="questChannel.lua" />
+</channels>

@@ -1,0 +1,1 @@
+function onSay(player) return false, empire_configMW(player) end

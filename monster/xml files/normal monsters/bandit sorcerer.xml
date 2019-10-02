@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Bandit sorcerer" nameDescription="a Bandit sorcerer" race="blood" experience="0" speed="160" manacost="0">
+	<health now="3000" max="3000"/>
+	<look type="149" head="130" body="79" legs="94" feet="85" addons="1" corpse="6081"/>
+	<targetchange interval="10000" chance="20"/>
+    
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="4"/>
+		<flag staticattack="95"/>
+		<flag runonhealth="400"/>
+	</flags>
+</monster>

@@ -1,0 +1,1 @@
+function onModalWindow(player, mwID, buttonID, choiceID) return warSystem_MW_handler(player, mwID, buttonID, choiceID) end

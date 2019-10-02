@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<spawns>
+	<spawn centerx="719" centery="759" centerz="6" radius="8">
+		<monster name="Dworc Voodoomaster" x="4" y="-7" z="6" spawntime="60" />
+		<monster name="Dworc Voodoomaster" x="-6" y="-5" z="6" spawntime="60" />
+		<monster name="Dworc Voodoomaster" x="-4" y="-2" z="6" spawntime="60" />
+		<monster name="Dworc Voodoomaster" x="5" y="-2" z="6" spawntime="60" />
+		<monster name="Dworc Voodoomaster" x="-7" y="3" z="6" spawntime="60" />
+		<monster name="Dworc Voodoomaster" x="3" y="3" z="6" spawntime="60" />
+		<monster name="Dworc Voodoomaster" x="6" y="3" z="6" spawntime="60" />
+		<monster name="Dworc Voodoomaster" x="-4" y="6" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="744" centery="759" centerz="6" radius="10">
+		<monster name="Bandit mage" x="-4" y="-5" z="6" spawntime="60" />
+		<monster name="Bandit mage" x="5" y="-5" z="6" spawntime="60" />
+		<monster name="Bandit mage" x="-3" y="0" z="6" spawntime="60" />
+		<monster name="Bandit mage" x="5" y="4" z="6" spawntime="60" />
+		<monster name="Bandit mage" x="-5" y="6" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="675" centery="645" centerz="7" radius="9" />
+	<spawn centerx="697" centery="649" centerz="7" radius="12" />
+	<spawn centerx="555" centery="658" centerz="7" radius="5" />
+	<spawn centerx="447" centery="600" centerz="8" radius="25" />
+	<spawn centerx="782" centery="638" centerz="8" radius="5">
+		<monster name="Deer" x="5" y="-2" z="8" spawntime="60" />
+		<monster name="Deer" x="-3" y="-1" z="8" spawntime="60" />
+		<monster name="Deer" x="3" y="0" z="8" spawntime="60" />
+		<monster name="Deer" x="-2" y="1" z="8" spawntime="60" />
+		<monster name="Deer" x="0" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="626" centery="658" centerz="8" radius="1">
+		<monster name="Diseased Dan" x="0" y="0" z="8" spawntime="120" />
+	</spawn>
+	<spawn centerx="499" centery="770" centerz="8" radius="1">
+		<monster name="hunger" x="1" y="0" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="436" centery="583" centerz="9" radius="1" />
+	<spawn centerx="452" centery="586" centerz="9" radius="1" />
+	<spawn centerx="440" centery="662" centerz="9" radius="3" />
+	<spawn centerx="441" centery="573" centerz="10" radius="1" />
+	<spawn centerx="451" centery="590" centerz="10" radius="1" />
+	<spawn centerx="423" centery="591" centerz="10" radius="1" />
+	<spawn centerx="461" centery="609" centerz="10" radius="1" />
+	<spawn centerx="436" centery="616" centerz="10" radius="1" />
+	<spawn centerx="467" centery="616" centerz="10" radius="1" />
+	<spawn centerx="436" centery="574" centerz="11" radius="1" />
+	<spawn centerx="447" centery="574" centerz="11" radius="1" />
+	<spawn centerx="423" centery="602" centerz="11" radius="1" />
+	<spawn centerx="444" centery="602" centerz="11" radius="1" />
+	<spawn centerx="460" centery="613" centerz="11" radius="1" />
+	<spawn centerx="440" centery="621" centerz="11" radius="1" />
+	<spawn centerx="443" centery="566" centerz="12" radius="1" />
+	<spawn centerx="444" centery="588" centerz="12" radius="1" />
+	<spawn centerx="426" centery="590" centerz="12" radius="1" />
+	<spawn centerx="443" centery="602" centerz="12" radius="1" />
+	<spawn centerx="425" centery="608" centerz="12" radius="1" />
+	<spawn centerx="442" centery="610" centerz="12" radius="1" />
+	<spawn centerx="464" centery="613" centerz="12" radius="1" />
+	<spawn centerx="423" centery="619" centerz="12" radius="1" />
+</spawns>

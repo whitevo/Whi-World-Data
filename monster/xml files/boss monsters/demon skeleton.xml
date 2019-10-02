@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="demon skeleton" nameDescription="a demon skeleton" race="undead" experience="0" speed="100" manacost="620">
+	<health now="40000" max="40000"/>
+	<look type="37" corpse="2809"/>
+	<targetchange interval="4000" chance="10"/>
+    
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+</monster>

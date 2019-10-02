@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movements>
+    <!-- AUTO REGISTRATION -->
+        <movevent event="StepIn"    fromaid="1000"      toaid="1200"    script="AIDTiles.lua"/> <!-- eventually end with 1999-->
+        <movevent event="StepIn"    fromaid="1900"      toaid="1999"    script="AIDTiles.lua"/>
+        <movevent event="StepOut"   fromaid="1900"      toaid="1999"    script="AIDTiles.lua"/>
+        <movevent event="StepOut"   fromaid="3000"      toaid="3100"    script="AIDTiles.lua"/>
+        
+    <!-- SPECIAL CASES -->
+        <movevent event="StepOut"   actionid="2263"                     script="AIDTiles.lua"/> <!-- window in mystery area -->
+        <movevent event="StepOut"   actionid="2246"                     script="AIDTiles.lua"/> <!-- jazmaz OT -->
+        <movevent event="StepIn"    actionid="2246"                     script="AIDTiles.lua"/> <!-- jazmaz OT -->
+        <movevent event="StepOut"   actionid="2247"                     script="AIDTiles.lua"/> <!-- jazmaz OT -->
+        
+    <!-- OTHER -->
+        <movevent event="StepIn"    itemid="460"    script="IDTiles.lua"/>      <!-- invisble floors -->
+        <movevent event="StepIn"    itemid="459"    script="IDTiles.lua"/>      <!-- walk down tile -->
+        <movevent event="StepIn"    itemid="1423"   script="IDTiles.lua"/>      <!-- campfire -->
+        <movevent event="StepIn"    itemid="8298"   script="IDTiles.lua"/>      <!-- adds powder to herb bag -->
+        <movevent event="StepIn"    itemid="8299"   script="IDTiles.lua"/>      <!-- adds powder to herb bag -->
+        <movevent event="StepIn"    itemid="8301"   script="IDTiles.lua"/>      <!-- adds powder to herb bag -->
+        <movevent event="StepIn"    itemid="8302"   script="IDTiles.lua"/>      <!-- adds powder to herb bag -->
+        <movevent event="StepIn"    itemid="2148"   script="IDTiles.lua"/>      <!-- autoloot gold -->
+        <movevent event="StepIn"    itemid="2147"   script="IDTiles.lua"/>      <!-- adds gem to bag -->
+        <movevent event="StepIn"    itemid="9970"   script="IDTiles.lua"/>      <!-- adds gem to bag -->
+        <movevent event="StepIn"    itemid="2150"   script="IDTiles.lua"/>      <!-- adds gem to bag -->
+        <movevent event="StepIn"    itemid="2146"   script="IDTiles.lua"/>      <!-- adds gem to bag -->
+        <movevent event="StepIn"    itemid="2149"   script="IDTiles.lua"/>      <!-- adds gem to bag -->
+        <movevent event="StepIn"    itemid="8305"   script="IDTiles.lua"/>      <!-- adds gem to bag -->
+        <movevent event="StepIn"    itemid="2389"   script="IDTiles.lua"/>      <!-- picks up spear -->
+        <movevent event="StepIn"    itemid="2544"   script="IDTiles.lua"/>      <!-- picks up arrow -->
+        <movevent event="StepIn"    itemid="3965"   script="IDTiles.lua"/>      <!-- picks up hunting spear -->
+        <movevent event="StepIn"    itemid="1945"   script="IDTiles.lua"/>      <!-- cant step on lever -->
+        <movevent event="StepIn"    itemid="1946"   script="IDTiles.lua"/>      <!-- cant step on lever -->
+        <movevent event="StepIn"    itemid="9825"   script="IDTiles.lua"/>      <!-- cant step on lever -->
+        <movevent event="StepIn"    itemid="9826"   script="IDTiles.lua"/>      <!-- cant step on lever -->
+    
+	<!-- button tiles -->
+        <movevent event="StepIn"    itemid="426"    script="IDTiles.lua"/>
+        <movevent event="StepOut"   itemid="425"    script="IDTiles.lua"/>
+        <movevent event="StepIn"    itemid="446"    script="IDTiles.lua"/>
+        <movevent event="StepOut"   itemid="447"    script="IDTiles.lua"/>
+        <movevent event="StepIn"    itemid="3216"   script="IDTiles.lua"/>
+        <movevent event="StepOut"   itemid="3217"   script="IDTiles.lua"/>
+        
+    <!-- BAGS -->
+        <movevent event="Equip"     itemid="1991"   slot="backpack" script="activateItem.lua" />
+        <movevent event="DeEquip"   itemid="1991"   slot="backpack" script="activateItem.lua" />
+        <movevent event="Equip"     itemid="1995"   slot="backpack" script="activateItem.lua" />
+        <movevent event="DeEquip"   itemid="1995"   slot="backpack" script="activateItem.lua" />
+        <movevent event="Equip"     itemid="1996"   slot="backpack" script="activateItem.lua" />
+        <movevent event="DeEquip"   itemid="1996"   slot="backpack" script="activateItem.lua" />
+        <movevent event="Equip"     itemid="1987"   slot="backpack" script="activateItem.lua" />
+        <movevent event="DeEquip"   itemid="1987"   slot="backpack" script="activateItem.lua" />
+        <movevent event="Equip"     itemid="11241"  slot="backpack" script="activateItem.lua" />
+        <movevent event="DeEquip"   itemid="11241"  slot="backpack" script="activateItem.lua" />
+        <movevent event="Equip"     itemid="11242"  slot="backpack" script="activateItem.lua" />
+        <movevent event="DeEquip"   itemid="11242"  slot="backpack" script="activateItem.lua" />
+        <movevent event="Equip"     itemid="7343"   slot="backpack" script="activateItem.lua" />
+        <movevent event="DeEquip"   itemid="7343"   slot="backpack" script="activateItem.lua" />
+        
+    <!-- EQUIPMENT -->
+        <movevent event="Equip"     itemid="9776"   slot="armor"    script="activateItem.lua" />    <!-- goddess armor -->
+        <movevent event="DeEquip"   itemid="9776"   slot="armor"    script="activateItem.lua" />    <!-- goddess armor -->
+        <movevent event="Equip"     itemid="11425"  slot="armor"    script="activateItem.lua" />    <!-- bloody shirt -->
+        <movevent event="DeEquip"   itemid="11425"  slot="armor"    script="activateItem.lua" />    <!-- bloody shirt -->
+        <movevent event="Equip"     itemid="20109"  slot="armor"    script="activateItem.lua" />    <!-- leather vest -->
+        <movevent event="DeEquip"   itemid="20109"  slot="armor"    script="activateItem.lua" />    <!-- leather vest -->
+        <movevent event="Equip"     itemid="12431"  slot="armor"    script="activateItem.lua" />    <!-- kamikaze mantle -->
+        <movevent event="DeEquip"   itemid="12431"  slot="armor"    script="activateItem.lua" />    <!-- kamikaze mantle -->
+        <movevent event="Equip"     itemid="8871"   slot="armor"    script="activateItem.lua" />    <!-- precision robe -->
+        <movevent event="DeEquip"   itemid="8871"   slot="armor"    script="activateItem.lua" />    <!-- precision robe -->
+        <movevent event="Equip"     itemid="21692"  slot="armor"    script="activateItem.lua" />    <!-- stone armor -->
+        <movevent event="DeEquip"   itemid="21692"  slot="armor"    script="activateItem.lua" />    <!-- stone armor -->
+        <movevent event="Equip"     itemid="2508"   slot="armor"    script="activateItem.lua" />    <!-- yashiteki -->
+        <movevent event="DeEquip"   itemid="2508"   slot="armor"    script="activateItem.lua" />    <!-- yashiteki -->
+        <movevent event="Equip"     itemid="2467"   slot="armor"    script="activateItem.lua" />    <!-- leather armor -->
+        <movevent event="DeEquip"   itemid="2467"   slot="armor"    script="activateItem.lua" />    <!-- leather armor -->
+        <movevent event="Equip"     itemid="7463"   slot="armor"    script="activateItem.lua" />    <!-- fur cape -->
+        <movevent event="DeEquip"   itemid="7463"   slot="armor"    script="activateItem.lua" />    <!-- fur cape -->
+        <movevent event="Equip"     itemid="18399"  slot="armor"    script="activateItem.lua" />    <!-- traptrix Coat -->
+        <movevent event="DeEquip"   itemid="18399"  slot="armor"    script="activateItem.lua" />    <!-- traptrix Coat -->
+        <movevent event="Equip"     itemid="18404"  slot="armor"    script="activateItem.lua" />    <!-- ghatitk Armor -->
+        <movevent event="DeEquip"   itemid="18404"  slot="armor"    script="activateItem.lua" />    <!-- ghatitk Armor -->
+        <movevent event="Equip"     itemid="21725"  slot="armor"    script="activateItem.lua" />    <!-- phadra robe -->
+        <movevent event="DeEquip"   itemid="21725"  slot="armor"    script="activateItem.lua" />    <!-- phadra robe -->
+        <movevent event="Equip"     itemid="13559"  slot="armor"    script="activateItem.lua" />    <!-- demonic robe -->
+        <movevent event="DeEquip"   itemid="13559"  slot="armor"    script="activateItem.lua" />    <!-- demonic robe -->
+        
+        <movevent event="Equip"     itemid="12327"  slot="hand"     script="activateItem.lua" />    <!-- tutorial staff -->
+        <movevent event="Equip"     itemid="2190"   slot="hand"     script="activateItem.lua" />    <!-- Kaiju Wall wand -->
+        <movevent event="DeEquip"   itemid="2190"   slot="hand"     script="activateItem.lua" />    <!-- Kaiju Wall wand -->
+        <movevent event="Equip"     itemid="2183"   slot="hand"     script="activateItem.lua" />    <!-- atsui kori -->
+        <movevent event="DeEquip"   itemid="2183"   slot="hand"     script="activateItem.lua" />    <!-- atsui kori -->
+        <movevent event="Equip"     itemid="2542"   slot="hand"     script="activateItem.lua" />    <!-- zvoid shield -->
+        <movevent event="DeEquip"   itemid="2542"   slot="hand"     script="activateItem.lua" />    <!-- zvoid shield -->
+        <movevent event="Equip"     itemid="13760"  slot="hand"     script="activateItem.lua" />    <!-- immortal kamikaze -->
+        <movevent event="DeEquip"   itemid="13760"  slot="hand"     script="activateItem.lua" />    <!-- immortal kamikaze -->
+        <movevent event="Equip"     itemid="15647"  slot="hand"     script="activateItem.lua" />    <!-- purifying mallet -->
+        <movevent event="DeEquip"   itemid="15647"  slot="hand"     script="activateItem.lua" />    <!-- purifying mallet -->
+        <movevent event="Equip"     itemid="15400"  slot="hand"     script="activateItem.lua" />    <!-- yashinuken -->
+        <movevent event="DeEquip"   itemid="15400"  slot="hand"     script="activateItem.lua" />    <!-- yashinuken -->
+        <movevent event="Equip"     itemid="2456"   slot="hand"     script="activateItem.lua" />    <!-- bow -->
+        <movevent event="DeEquip"   itemid="2456"   slot="hand"     script="activateItem.lua" />    <!-- bow -->
+        <movevent event="Equip"     itemid="3965"   slot="hand"     script="activateItem.lua" />    <!-- hunting spear -->
+        <movevent event="DeEquip"   itemid="3965"   slot="hand"     script="activateItem.lua" />    <!-- hunting spear -->
+        
+        <movevent event="Equip"     itemid="8707"   slot="shield"   script="activateItem.lua" />    <!-- thunder book -->
+        <movevent event="DeEquip"   itemid="8707"   slot="shield"   script="activateItem.lua" />    <!-- thunder book -->
+        <movevent event="Equip"     itemid="16103"  slot="shield"   script="activateItem.lua" />    <!-- shikara nankan -->
+        <movevent event="DeEquip"   itemid="16103"  slot="shield"   script="activateItem.lua" />    <!-- shikara nankan -->
+        <movevent event="Equip"     itemid="15491"  slot="shield"   script="activateItem.lua" />    <!-- tone shield -->
+        <movevent event="DeEquip"   itemid="15491"  slot="shield"   script="activateItem.lua" />    <!-- tone shield -->
+        <movevent event="Equip"     itemid="8909"   slot="shield"   script="activateItem.lua" />    <!-- gribit shield -->
+        <movevent event="DeEquip"   itemid="8909"   slot="shield"   script="activateItem.lua" />    <!-- gribit shield -->
+        <movevent event="Equip"     itemid="2522"   slot="shield"   script="activateItem.lua" />    <!-- bianhuren -->
+        <movevent event="DeEquip"   itemid="2522"   slot="shield"   script="activateItem.lua" />    <!-- bianhuren -->
+        <movevent event="Equip"     itemid="12425"  slot="shield"   script="activateItem.lua" />    <!-- fire quiver -->
+        <movevent event="DeEquip"   itemid="12425"  slot="shield"   script="activateItem.lua" />    <!-- fire quiver -->
+        <movevent event="Equip"     itemid="15481"  slot="shield"   script="activateItem.lua" />    <!-- traptrix quiver -->
+        <movevent event="DeEquip"   itemid="15481"  slot="shield"   script="activateItem.lua" />    <!-- traptrix quiver -->
+        <movevent event="Equip"     itemid="18410"  slot="shield"   script="activateItem.lua" />    <!-- ghatitk shield -->
+        <movevent event="DeEquip"   itemid="18410"  slot="shield"   script="activateItem.lua" />    <!-- ghatitk shield -->
+        <movevent event="Equip"     itemid="2537"   slot="shield"   script="activateItem.lua" />    <!-- yashimaki -->
+        <movevent event="DeEquip"   itemid="2537"   slot="shield"   script="activateItem.lua" />    <!-- yashimaki -->
+        <movevent event="Equip"     itemid="2520"   slot="shield"   script="activateItem.lua" />    <!-- demonic shield -->
+        <movevent event="DeEquip"   itemid="2520"   slot="shield"   script="activateItem.lua" />    <!-- demonic shield -->
+        <movevent event="Equip"     itemid="6391"   slot="shield"   script="activateItem.lua" />    <!-- Chokkan -->
+        <movevent event="DeEquip"   itemid="6391"   slot="shield"   script="activateItem.lua" />    <!-- Chokkan -->
+        <movevent event="Equip"     itemid="8905"   slot="shield"   script="activateItem.lua" />    <!-- Supaky -->
+        <movevent event="DeEquip"   itemid="8905"   slot="shield"   script="activateItem.lua" />    <!-- Supaky -->
+        <movevent event="Equip"     itemid="2532"   slot="shield"   script="activateItem.lua" />    <!-- Kodayasu -->
+        <movevent event="DeEquip"   itemid="2532"   slot="shield"   script="activateItem.lua" />    <!-- Kodayasu -->
+        <movevent event="Equip"     itemid="2521"   slot="shield"   script="activateItem.lua" />    <!-- Akujaaku -->
+        <movevent event="DeEquip"   itemid="2521"   slot="shield"   script="activateItem.lua" />    <!-- Akujaaku -->
+        
+        <movevent event="Equip"     itemid="2477"   slot="legs"     script="activateItem.lua" />    <!-- shimasu legs -->
+        <movevent event="DeEquip"   itemid="2477"   slot="legs"     script="activateItem.lua" />    <!-- shimasu legs -->
+        <movevent event="Equip"     itemid="18405"  slot="legs"     script="activateItem.lua" />    <!-- ghatitk legs -->
+        <movevent event="DeEquip"   itemid="18405"  slot="legs"     script="activateItem.lua" />    <!-- ghatitk legs -->
+        <movevent event="Equip"     itemid="5918"   slot="legs"     script="activateItem.lua" />    <!-- kamikaze short pants -->
+        <movevent event="DeEquip"   itemid="5918"   slot="legs"     script="activateItem.lua" />    <!-- kamikaze short pants -->
+        <movevent event="Equip"     itemid="7896"   slot="legs"     script="activateItem.lua" />    <!-- frizen kilt -->
+        <movevent event="DeEquip"   itemid="7896"   slot="legs"     script="activateItem.lua" />    <!-- frizen kilt -->
+        <movevent event="Equip"     itemid="2649"   slot="legs"     script="activateItem.lua" />    <!-- leather legs -->
+        <movevent event="DeEquip"   itemid="2649"   slot="legs"     script="activateItem.lua" />    <!-- leather legs -->
+        <movevent event="Equip"     itemid="15409"  slot="legs"     script="activateItem.lua" />    <!-- intrinsic legs -->
+        <movevent event="DeEquip"   itemid="15409"  slot="legs"     script="activateItem.lua" />    <!-- intrinsic legs -->
+        <movevent event="Equip"     itemid="3983"   slot="legs"     script="activateItem.lua" />    <!-- speedzy legs -->
+        <movevent event="DeEquip"   itemid="3983"   slot="legs"     script="activateItem.lua" />    <!-- speedzy legs -->
+        <movevent event="Equip"     itemid="11304"  slot="legs"     script="activateItem.lua" />    <!-- genso fedo -->
+        <movevent event="DeEquip"   itemid="11304"  slot="legs"     script="activateItem.lua" />    <!-- genso fedo -->
+        <movevent event="Equip"     itemid="7730"   slot="legs"     script="activateItem.lua" />    <!-- kamikaze pants -->
+        <movevent event="DeEquip"   itemid="7730"   slot="legs"     script="activateItem.lua" />    <!-- kamikaze pants -->
+        <movevent event="Equip"     itemid="7464"   slot="legs"     script="activateItem.lua" />    <!-- fur shorts -->
+        <movevent event="DeEquip"   itemid="7464"   slot="legs"     script="activateItem.lua" />    <!-- fur shorts -->
+        <movevent event="Equip"     itemid="2507"   slot="legs"     script="activateItem.lua" />    <!-- gribit legs -->
+        <movevent event="DeEquip"   itemid="2507"   slot="legs"     script="activateItem.lua" />    <!-- gribit legs -->
+        <movevent event="Equip"     itemid="18400"  slot="legs"     script="activateItem.lua" />    <!-- chamak legs -->
+        <movevent event="DeEquip"   itemid="18400"  slot="legs"     script="activateItem.lua" />    <!-- chamak legs -->
+        <movevent event="Equip"     itemid="2504"   slot="legs"     script="activateItem.lua" />    <!-- stone legs -->
+        <movevent event="DeEquip"   itemid="2504"   slot="legs"     script="activateItem.lua" />    <!-- stone legs -->
+        <movevent event="Equip"     itemid="2495"   slot="legs"     script="activateItem.lua" />    <!-- demonic legs -->
+        <movevent event="DeEquip"   itemid="2495"   slot="legs"     script="activateItem.lua" />    <!-- demonic legs -->
+        
+        <movevent event="Equip"     itemid="2663"   slot="head"     script="activateItem.lua" />    <!-- zvoid turban -->
+        <movevent event="DeEquip"   itemid="2663"   slot="head"     script="activateItem.lua" />    <!-- zvoid turban -->
+        <movevent event="Equip"     itemid="12434"  slot="head"     script="activateItem.lua" />    <!-- hood of natural talent -->
+        <movevent event="DeEquip"   itemid="12434"  slot="head"     script="activateItem.lua" />    <!-- hood of natural talent -->
+        <movevent event="Equip"     itemid="2662"   slot="head"     script="activateItem.lua" />    <!-- arogja hat -->
+        <movevent event="DeEquip"   itemid="2662"   slot="head"     script="activateItem.lua" />    <!-- arogja hat -->
+        <movevent event="Equip"     itemid="2461"   slot="head"     script="activateItem.lua" />    <!-- leather helmet -->
+        <movevent event="DeEquip"   itemid="2461"   slot="head"     script="activateItem.lua" />    <!-- leather helmet -->
+        <movevent event="Equip"     itemid="7458"   slot="head"     script="activateItem.lua" />    <!-- fur cap -->
+        <movevent event="DeEquip"   itemid="7458"   slot="head"     script="activateItem.lua" />    <!-- fur cap -->
+        <movevent event="Equip"     itemid="10570"  slot="head"     script="activateItem.lua" />    <!-- amanita hat -->
+        <movevent event="DeEquip"   itemid="10570"  slot="head"     script="activateItem.lua" />    <!-- amanita hat -->
+        <movevent event="Equip"     itemid="9735"   slot="head"     script="activateItem.lua" />    <!-- blessed iron helmet -->
+        <movevent event="DeEquip"   itemid="9735"   slot="head"     script="activateItem.lua" />    <!-- blessed iron helmet -->
+        <movevent event="Equip"     itemid="12442"  slot="head"     script="activateItem.lua" />    <!-- blessed turban -->
+        <movevent event="DeEquip"   itemid="12442"  slot="head"     script="activateItem.lua" />    <!-- blessed turban -->
+        <movevent event="Equip"     itemid="18398"  slot="head"     script="activateItem.lua" />    <!-- blessed hood -->
+        <movevent event="DeEquip"   itemid="18398"  slot="head"     script="activateItem.lua" />    <!-- blessed hood -->
+        <movevent event="Equip"     itemid="2481"   slot="head"     script="activateItem.lua" />    <!-- warrior helmet -->
+        <movevent event="DeEquip"   itemid="2481"   slot="head"     script="activateItem.lua" />    <!-- warrior helmet -->
+        <movevent event="Equip"     itemid="7903"   slot="head"     script="activateItem.lua" />    <!-- pinpua hood -->
+        <movevent event="DeEquip"   itemid="7903"   slot="head"     script="activateItem.lua" />    <!-- pinpua hood -->
+        <movevent event="Equip"     itemid="6433"   slot="head"     script="activateItem.lua" />    <!-- kamikaze Mask -->
+        <movevent event="DeEquip"   itemid="6433"   slot="head"     script="activateItem.lua" />    <!-- kamikaze Mask -->
+        <movevent event="Equip"     itemid="3972"   slot="head"     script="activateItem.lua" />    <!-- snaipa Helmet -->
+        <movevent event="DeEquip"   itemid="3972"   slot="head"     script="activateItem.lua" />    <!-- snaipa Helmet -->
+        
+        <movevent event="Equip"     itemid="18406"  slot="feet"     script="activateItem.lua" />    <!-- the nami boots -->
+        <movevent event="DeEquip"   itemid="18406"  slot="feet"     script="activateItem.lua" />    <!-- the nami boots -->
+        <movevent event="Equip"     itemid="2643"   slot="feet"     script="activateItem.lua" />    <!-- leather boots -->
+        <movevent event="DeEquip"   itemid="2643"   slot="feet"     script="activateItem.lua" />    <!-- leather boots -->
+        <movevent event="Equip"     itemid="7457"   slot="feet"     script="activateItem.lua" />    <!-- fur boots -->
+        <movevent event="DeEquip"   itemid="7457"   slot="feet"     script="activateItem.lua" />    <!-- fur boots -->
+        <movevent event="Equip"     itemid="2645"   slot="feet"     script="activateItem.lua" />    <!-- warrior boots -->
+        <movevent event="DeEquip"   itemid="2645"   slot="feet"     script="activateItem.lua" />    <!-- warrior boots -->
+        <movevent event="Equip"     itemid="7893"   slot="feet"     script="activateItem.lua" />    <!-- arcane boots -->
+        <movevent event="DeEquip"   itemid="7893"   slot="feet"     script="activateItem.lua" />    <!-- arcane boots -->
+        <movevent event="Equip"     itemid="11117"  slot="feet"     script="activateItem.lua" />    <!-- zvoid boots -->
+        <movevent event="DeEquip"   itemid="11117"  slot="feet"     script="activateItem.lua" />    <!-- zvoid boots -->
+        <movevent event="Equip"     itemid="11303"  slot="feet"     script="activateItem.lua" />    <!-- kakki boots -->
+        <movevent event="DeEquip"   itemid="11303"  slot="feet"     script="activateItem.lua" />    <!-- kakki boots -->
+        <movevent event="Equip"     itemid="23540"  slot="feet"     script="activateItem.lua" />    <!-- chivit boots -->
+        <movevent event="DeEquip"   itemid="23540"  slot="feet"     script="activateItem.lua" />    <!-- chivit boots -->
+</movements>

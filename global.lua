@@ -1,0 +1,178 @@
+math.randomseed(os.time())
+
+function testServer()
+    if THIS_IS_TEST_SERVER == nil then THIS_IS_TEST_SERVER = configManager.getString(configKeys.SERVER_NAME) == "test" end
+    return THIS_IS_TEST_SERVER
+end
+
+default_resTypes = {"fire", "ice", "death", "holy", "earth", "energy", "physical"}
+
+-- COMBAT TYPE | damType
+PHYSICAL = COMBAT_PHYSICALDAMAGE
+ICE = COMBAT_ICEDAMAGE
+FIRE = COMBAT_FIREDAMAGE
+ENERGY = COMBAT_ENERGYDAMAGE
+EARTH = COMBAT_EARTHDAMAGE
+DEATH = COMBAT_DEATHDAMAGE
+LD = COMBAT_LIFEDRAIN
+HOLY = COMBAT_HOLYDAMAGE
+
+DAY = 60*60*24
+HOUR = 60*60
+MS_DAY = 1000*DAY
+MS_HOUR = 1000*HOUR
+
+--[[
+    FLUID_MANA,
+    FLUID_SLIME,
+    FLUID_EMPTY,
+    FLUID_LEMONADE,
+    FLUID_MILK,
+]]
+compass1 = {"E","S","W","N"}
+compass2 = {"NW","NE","SW","SE"}
+compass3 = {"N","NE","E","SE","S","SW","W","NW"}
+
+FLUID_EMPTY = 0
+FLUID_WATER = 1
+FLUID_BLOOD = 2
+FLUID_BEER = 3
+FLUID_WINE = 15
+FLUID_FRUIT = 21
+
+POISON = COMBAT_EARTHDAMAGE
+CONDITION_EXHAUST = CONDITION_EXHAUST_WEAPON
+TALKTYPE_ORANGE_1 = TALKTYPE_MONSTER_SAY -- not needed MAYBE
+TALKTYPE_ORANGE_2 = TALKTYPE_MONSTER_YELL -- wtf is the the differece?
+
+CONTAINERPOS        = 65535     -- pos.x
+CONTAINER_POSITION  = 0xFFFF    -- pos.x
+BIT_CONTAINER       = 0x40
+BIT_CONTAINER_ID    = 0x0F
+
+-- COLORS | COLOR ENUMS
+GREEN   = MESSAGE_INFO_DESCR
+ORANGE  = TALKTYPE_MONSTER_SAY
+BLUE    = MESSAGE_STATUS_CONSOLE_BLUE
+YELLOW  = TALKTYPE_SAY
+WHITE   = MESSAGE_STATUS_SMALL
+RED2    = MESSAGE_STATUS_CONSOLE_RED
+RED     = MESSAGE_STATUS_WARNING
+
+C_YELLOW    = TALKTYPE_CHANNEL_Y
+C_RED       = TALKTYPE_CHANNEL_R1
+C_ORANGE    = TALKTYPE_CHANNEL_O
+
+-- ATTRIBUTES | ATTRIBUTE ENUMS
+DESCRIPTION = ITEM_ATTRIBUTE_DESCRIPTION
+TEXT        = ITEM_ATTRIBUTE_TEXT
+ARMOR       = ITEM_ATTRIBUTE_ARMOR
+UNIQUEID    = ITEM_ATTRIBUTE_UNIQUEID
+ACTIONID    = ITEM_ATTRIBUTE_ACTIONID
+
+-- CONDITIONS | CONDITION ENUMS
+HASTE       = CONDITION_HASTE
+SLOW        = CONDITION_PARALYZE
+REGEN       = CONDITION_REGENERATION
+ATTRIBUTES  = CONDITION_ATTRIBUTES
+INVISIBLE   = CONDITION_INVISIBLE
+DOT_FIRE    = CONDITION_FIRE
+DOT_ICE     = CONDITION_ICE
+DOT_ENERGY  = CONDITION_ENERGY
+DOT_EARTH   = CONDITION_POISON
+DOT_DEATH   = CONDITION_CURSED
+DOT_PHYSICAL= CONDITION_BLEEDING
+
+-- PARAMS | PARAM ENUMS
+SPEED           = CONDITION_PARAM_SPEED
+TICKS           = CONDITION_PARAM_TICKS
+HEALTHGAIN      = CONDITION_PARAM_HEALTHGAIN
+HEALTHTICKS     = CONDITION_PARAM_HEALTHTICKS
+MANAGAIN        = CONDITION_PARAM_MANAGAIN
+MANATICKS       = CONDITION_PARAM_MANATICKS
+MAXMANAPOINTS   = CONDITION_PARAM_STAT_MAXMANAPOINTS
+MAXHEALTHPOINTS = CONDITION_PARAM_STAT_MAXHITPOINTS
+MAXHPPERCENT    = CONDITION_PARAM_STAT_MAXHITPOINTSPERCENT
+MAXMPPERCENT    = CONDITION_PARAM_STAT_MAXMANAPOINTSPERCENT
+MAGIC_LEVEL     = CONDITION_PARAM_STAT_MAGICPOINTS
+P_SKILL_FIST    = CONDITION_PARAM_SKILL_FIST
+P_SKILL_CLUB    = CONDITION_PARAM_SKILL_CLUB
+P_SKILL_SWORD   = CONDITION_PARAM_SKILL_SWORD
+P_SKILL_AXE     = CONDITION_PARAM_SKILL_AXE
+P_SKILL_FISHING = CONDITION_PARAM_SKILL_FISHING
+P_SKILL_SHIELD  = CONDITION_PARAM_SKILL_SHIELD
+P_SKILL_DISTANCE= CONDITION_PARAM_SKILL_DISTANCE
+DOT             = CONDITION_PARAM_PERIODICDAMAGE
+INTERVAL        = CONDITION_PARAM_TICKINTERVAL
+SUBID           = CONDITION_PARAM_SUBID
+
+-- SLOTS | SLOT ENUMS
+SLOT_HEAD       = CONST_SLOT_HEAD
+SLOT_NECKLACE   = CONST_SLOT_NECKLACE
+SLOT_BACKPACK   = CONST_SLOT_BACKPACK
+SLOT_ARMOR      = CONST_SLOT_ARMOR
+SLOT_RIGHT      = CONST_SLOT_RIGHT
+SLOT_LEFT       = CONST_SLOT_LEFT
+SLOT_LEGS       = CONST_SLOT_LEGS
+SLOT_FEET       = CONST_SLOT_FEET
+SLOT_RING       = CONST_SLOT_RING
+SLOT_AMMO       = CONST_SLOT_AMMO
+
+HEAD            = CONST_SLOT_HEAD
+BODY            = CONST_SLOT_ARMOR
+SHIELD          = CONST_SLOT_RIGHT
+LEGS            = CONST_SLOT_LEGS
+BOOTS           = CONST_SLOT_FEET
+WEAPON          = CONST_SLOT_LEFT
+
+defaultOutfit = {
+    lookFeet = 76,
+    lookLegs = 58,
+    lookMount = 0,
+    lookHead = 78,
+    lookTypeEx = 0,
+    lookType = 128,
+    lookAddons = 0,
+    lookBody = 68,
+}
+
+-- damage origins
+O_player_weapons = 11
+O_player_spells = 12
+O_player_proc = 13
+O_monster_spells = 14
+O_monster_procs = 15
+O_environment = 16
+O_environment_player = 17
+O_environment_monster = 18
+O_monster_procs_player = 19
+O_player_weapons_range = 20
+O_player_weapons_melee = 21
+O_player_weapons_mage = 22
+O_fireProc = 23
+O_demonSkeletonTower = 24
+O_royale = 25
+--[[
+    O_environment_player > O_environment | deals damage to player
+    O_environment_monster > O_environment | deals damage to monster
+    O_monster_procs_player > O_monster_procs | deals damage to player
+]]
+
+damTypes = {PHYSICAL, ICE, FIRE, EARTH, DEATH, ENERGY}
+
+dofile('data/doFiles.lua')
+
+function Player.isUsingOtClient(self) -- ??
+    return self:getClient().os >= CLIENTOS_OTCLIENT_LINUX
+end
+ 
+function Player.sendExtendedOpcode(player, opcode, buffer) -- ??
+    if not player:isUsingOtClient() then return end
+    local networkMessage = NetworkMessage()
+    networkMessage:addByte(0x32)
+    networkMessage:addByte(opcode)
+    networkMessage:addString(buffer)
+    networkMessage:sendToPlayer(player)
+    networkMessage:delete()
+    return true
+end

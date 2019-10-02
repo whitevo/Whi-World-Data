@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+	<globalevent type="startup"     name="ServerStartup"    script="startup.lua"/>
+	<globalevent name="second"      interval="1000"         script="secInterval.lua" />
+	<globalevent name="minute"      interval="60000"        script="minuteInterval.lua" />
+	<globalevent name="hour"        interval="3600000"      script="hourInterval.lua" />
+	<globalevent name="day"         interval="86400000"     script="dayInterval.lua" />
+
+    <!-- special -->
+    <globalevent name="speedBall"   interval="200"          script="speedBallMinigame.lua"/>
+</globalevents>

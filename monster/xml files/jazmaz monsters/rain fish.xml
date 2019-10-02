@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="rain fish" nameDescription="rain fish" race="blood" experience="0" speed="180" manacost="480">
+	<health now="2000" max="2000"/>
+	<look type="72" corpse="6064"/>
+	<targetchange interval="4000" chance="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag staticattack="80"/>
+		<flag targetdistance="2"/>
+		<flag runonhealth="0"/>
+	</flags>
+</monster>

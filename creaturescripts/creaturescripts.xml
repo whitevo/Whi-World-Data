@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+	<event type="login" 		    name="PlayerLogin" 		    script="login.lua"/>
+	<event type="logout" 		    name="PlayerLogout"         script="logout.lua"/>
+    <event type="advance"		    name="levelUp"              script="levelUp.lua"/>
+    <event type="modalwindow" 	    name="modalWindows"         script="modalWindow.lua"/>
+    <event type="healthchange" 	    name="onHealthChange"		script="onHealthChange.lua"/>
+    <event type="preparedeath"      name="deathSystem"          script="deathSystem.lua"/>
+    <event type="death"             name="onDeath"              script="onDeath.lua"/>
+    <event type="think"             name="onThink"              script="onThink.lua"/>
+    <event type="extendedopcode"    name="test"		            script="opcode.lua"/>
+
+    <event type="healthchange" 	    name="damageSystem"		    script="damageSystem.lua"/>
+
+
+    <!--event type="healthchange" 	    name="spellSystem_healtChange" script="spellSystem.lua"/-->
+    <event type="modalwindow" 	    name="twaccy_rebirth"       script="twaccy_rebirth.lua"/>
+
+
+    <event type="think"             name="onThink_sayTarget"    script="onThink_sayTarget.lua"/>
+    <event type="modalwindow" 	    name="warSystemMW"          script="warSystem.lua"/>
+</creaturescripts>

@@ -1,0 +1,1 @@
+function onModalWindow(player, mwID, buttonID, choiceID) return rebirth_onModalWindow(player, mwID, buttonID, choiceID) end

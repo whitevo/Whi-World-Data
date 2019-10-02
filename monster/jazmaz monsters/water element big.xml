@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="big water element" nameDescription="big water element" race="energy" experience="0" speed="180" manacost="0">
+	<health now="1250" max="1250"/>
+	<look type="11" corpse="10499"/>
+	<targetchange interval="4000" chance="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag staticattack="90"/>
+		<flag targetdistance="3"/>
+		<flag runonhealth="0"/>
+	</flags>
+	
+		
+	
+	
+		
+		
+		
+	</script>
+</monster>

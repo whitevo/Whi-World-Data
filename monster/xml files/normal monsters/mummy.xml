@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mummy" nameDescription="a mummy" race="undead" experience="0" speed="100" manacost="0">
+	<health now="6000" max="6000"/>
+	<look type="65" corpse="6004"/>
+	<targetchange interval="4000" chance="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="60"/>
+		<flag runonhealth="0"/>
+	</flags>
+	
+	
+		<voice sentence="y o u d a r e t o m e s s w i t h my s l e e p"/>
+		<voice sentence="a w a y w i t h y o u"/>
+	
+</monster>

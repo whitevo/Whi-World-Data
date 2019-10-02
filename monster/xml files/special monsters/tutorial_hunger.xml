@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="hunger" nameDescription="a worm" race="blood" experience="0" speed="120" manacost="380">
+	<health now="5000" max="5000"/>
+	<look type="192" corpse="6069"/>
+	<targetchange interval="4000" chance="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="0"/>
+		<flag hostile="0"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="0"/>
+	</flags>
+    
+    <voices interval="15000" chance="80">
+		<voice sentence="feed meh!"/>
+	</voices>
+    
+	<voices interval="5000" chance="20">
+		<voice sentence="*gorrr*"/>
+		<voice sentence="*gor-gor*"/>
+	</voices>
+</monster>

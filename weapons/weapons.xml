@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weapons>
+    <wand id="12327"    script="attack.lua" />  <!-- tutorial staff -->
+    <wand id="2184"     script="attack.lua" />  <!-- magic wand -->
+    <wand id="2190"     script="attack.lua" />  <!-- Kaiju Wall -->
+    <wand id="2183"     script="attack.lua" />  <!-- atsui kori -->
+    <wand id="15400"    script="attack.lua" />  <!-- yashinuken -->
+    <wand id="13760"    script="attack.lua" />  <!-- immortal kamikaze -->
+    <melee id="7744"    script="attack.lua"/>   <!-- tutorial fire sword -->
+    <melee id="7763"    script="attack.lua"/>   <!-- tutorial ice sword -->
+    <melee id="7857"    script="attack.lua"/>   <!-- tutorial earth sword -->
+    <melee id="2376"    script="attack.lua"/>   <!-- sword --> <!-- royale t1 sword -->
+    <melee id="2380"    script="attack.lua"/>   <!-- hand axe -->
+    <melee id="2398"    script="attack.lua"/>   <!-- mace --> 
+    <melee id="15647"   script="attack.lua"/>   <!-- purifying mallet -->
+    <distance id="7367" script="attack.lua"/>   <!-- Enchanted Spear -->
+    <distance id="3965" script="attack.lua"/>   <!-- hunting Spear -->
+    <distance id="2389" script="attack.lua"/>   <!-- spear -->
+    <distance id="2456" script="attack.lua"/>   <!-- bow --> <!-- royale t1 bow -->
+
+    <melee id="2402"    script="attack.lua"/>   <!-- royale t0 sword --> 
+    <melee id="21470"   script="attack.lua"/>   <!-- royale t2 sword --> 
+    <melee id="12649"   script="attack.lua"/>   <!-- royale t3 sword -->
+    <distance id="22418" script="attack.lua"/>  <!-- royale t2 bow --> 
+    <distance id="15643" script="attack.lua"/>  <!-- royale t3 bow -->
+</weapons>

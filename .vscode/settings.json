@@ -1,0 +1,17 @@
+{
+    "files.exclude": {
+        "**/.git*": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/XML": true,
+        "**/world": true,
+        "**/raids": true,
+        "**/reports": true,
+        "**/migrations": true,
+        "**/logs": true,
+        "**/chatchannels": true,
+        "**/lib": true,
+      },
+}

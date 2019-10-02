@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="water dragon" nameDescription="water dragon" race="blood" experience="0" speed="180" manacost="390">
+	<health now="20000" max="20000"/>
+	<look type="275" corpse="8307"/>
+	<targetchange interval="4000" chance="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="1"/>
+		<flag staticattack="70"/>
+		<flag targetdistance="0"/>
+		<flag runonhealth="0"/>
+	</flags>
+	
+		
+	
+	
+		
+		
+		
+	</script>
+</monster>

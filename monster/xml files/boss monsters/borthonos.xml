@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Borthonos" nameDescription="a Borthonos" race="blood" experience="0" speed="150" manacost="0">
+	<health now="60000" max="60000"/>
+	<look type="394" corpse="13603"/>
+	<targetchange interval="15000" chance="30"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="30"/>
+		<flag runonhealth="0"/>
+	</flags>
+
+   	<voices interval="20000" chance="10">
+        <voice sentence="What are you even trying to do here?"/>
+        <voice sentence="NOONE defeats the Le Great Borthonos"/>
+	</voices>
+</monster>

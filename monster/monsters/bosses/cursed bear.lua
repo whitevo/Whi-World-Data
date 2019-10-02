@@ -1,0 +1,1 @@
+-- data/quests/cursed bear quest.lua
